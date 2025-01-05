@@ -1,15 +1,15 @@
-# Ciceron Translate
+# Ciceron
 
-![POWERED WITH ](https://github.com/user-attachments/assets/e163ef34-544d-4836-a2ac-c390e082049e)
+![POWERED WITH ](./public/assets/cover.png)
 
-Ciceron Translate is an npm package that translates comments in files from an auto-detected language to another language using the DEEPL© API.
+**Ciceron Translate** is an npm package that translates comments in files from an auto-detected language to another language using the DEEPL© API.
 
 ## Installation
 
 To install the package, use npm:
 
 ```bash
-coming soon
+npm i ciceron
 ```
 
 ## Usage
@@ -32,11 +32,15 @@ You will be prompted to select the target language and choose whether to replace
 
 ## Configuration
 
-Make sure to set your DEEPL API key in a `.env` file at the root of your project:
+Make sure to set your DEEPL API key in the `.env` file at the root of your project:
 
 ```
 DEEPL_API_KEY=your_deepl_api_key
 ```
+
+Don't have a DEEPL API key yet? Go to [DEEPL](https://www.deepl.com/en/products/api) to create a free account !
+
+*NB: with DEEPL's free offer, you have access to an API credit of 500,000 words per month.*
 
 ## Dependencies
 
