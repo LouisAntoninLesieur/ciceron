@@ -1,0 +1,33 @@
+{
+  "name": "ciceron-translate",
+  "version": "1.0.0",
+  "description": "An npm package to translate in-files comments from auto-detected language to another one using DEEPL© API.",
+  "keywords": [
+    "translate",
+    "translation",
+    "comments",
+    "deepl",
+    "cli",
+    "ciceron",
+    "nodejs"
+  ],
+  "license": "MIT",
+  "author": "Louis-Antonin Lesieur",
+  "bin": {
+    "ciceron": "./index.js"
+  },
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "chalk": "^5.4.1",
+    "commander": "^13.0.0",
+    "deepl-node": "^1.15.0",
+    "dotenv": "^16.4.7",
+    "figlet": "^1.8.0",
+    "fs-extra": "^11.2.0",
+    "inquirer": "^12.3.0"
+  }
+}
