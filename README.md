@@ -19,13 +19,13 @@ npm i ciceron
 To use the `ciceron` CLI command, run:
 
 ```bash
-ciceron translate <file>
+npx ciceron translate <file>
 ```
 
 ### Example
 
 ```bash
-ciceron translate ./src/example.js
+npx ciceron translate ./src/example.js
 ```
 
 You will be prompted to select the target language and choose whether to replace the original files or generate a new file.
