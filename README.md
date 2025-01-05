@@ -1,6 +1,6 @@
 # Ciceron
 
-![POWERED WITH ](./public/assets/cover.png)
+![POWERED WITH ](https://i.imgur.com/WUDnQ3Q.png)
 
 **Ciceron Translate** is an npm package that translates comments in files from an auto-detected language to another language using the DEEPL© API.
 
