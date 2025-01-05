@@ -1,5 +1,7 @@
 # Ciceron Translate
 
+![POWERED WITH ](https://github.com/user-attachments/assets/e163ef34-544d-4836-a2ac-c390e082049e)
+
 Ciceron Translate is an npm package that translates comments in files from an auto-detected language to another language using the DEEPL© API.
 
 ## Installation
