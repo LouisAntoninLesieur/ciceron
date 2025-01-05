@@ -3,13 +3,8 @@
   "version": "1.0.0",
   "description": "An npm package to translate in-files comments from auto-detected language to another one using DEEPL© API.",
   "keywords": [
-    "translate",
     "translation",
-    "comments",
-    "deepl",
-    "cli",
-    "ciceron",
-    "nodejs"
+    "tool"
   ],
   "license": "MIT",
   "author": "Louis-Antonin Lesieur",
@@ -29,5 +24,10 @@
     "figlet": "^1.8.0",
     "fs-extra": "^11.2.0",
     "inquirer": "^12.3.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LouisAntoninLesieur/ciceron"
+  },
+  "homepage": "https://github.com/LouisAntoninLesieur/ciceron"
 }
