@@ -2,45 +2,87 @@
 
 ![POWERED WITH ](https://i.imgur.com/WUDnQ3Q.png)
 
-**Ciceron Translate** is an npm package that translates comments in files from an auto-detected language to another language using the DEEPL© API.
+<span style="color: #305c48">**Ciceron**</span> is an npm package that translates in files comments from auto-detected language to another language using the DEEPL© API.
 
 ## Installation
 
-To install the package, use npm:
+We recommend installing <span style="color: #305c48">**ciceron**</span> globally:
 
 ```bash
-npm i ciceron
+npm i -g ciceron
 ```
+
+<details>
+  <summary style="font-style: italic">Installing ciceron locally (not recommended)</summary>
+<br>
+
+  If you prefer to install <span style="color: #305c48">**ciceron**</span> locally, we recommend adding it to your project dev dependencies:
+
+  ```bash
+  npm i ciceron --save-dev
+  ```
+
+  Then, add a new script in your `package.json`:
+
+  ```json
+  "scripts": {
+    "translate": "ciceron translate"
+  }
+  ```
+
+  Finally, run the following command in your terminal:
+
+  ```bash
+  npm run translate <file>
+  ```
+</details>
 
 ## Usage
 
 ### CLI Command
 
-To use the `ciceron` CLI command, run:
+To use the <span style="color: #305c48">**ciceron**</span> CLI command, run:
+
+#### If <span style="color: #305c48">**ciceron**</span> is installed globally:
 
 ```bash
-npx ciceron translate <file>
+ciceron translate <file>
 ```
 
 ### Example
 
 ```bash
-npx ciceron translate ./src/example.js
+ciceron translate ./src/example.js
+```
+
+#### If <span style="color: #305c48">**ciceron**</span> is not installed globally or locally:
+
+```bash
+npx ciceron translate <file>
 ```
 
 You will be prompted to select the target language and choose whether to replace the original files or generate a new file.
 
 ## Configuration
 
-Make sure to set your DEEPL API key in the `.env` file at the root of your project:
+<span style="color: #305c48">**ciceron**</span> requires a short configuration.
 
+Make sure to install [dotenv](https://www.npmjs.com/package/dotenv) locally:
+
+```bash
+npm i dotenv
 ```
+
+Set your DEEPL API key in the `.env` file **at the root of your project**:
+
+```js
+// myproject/.env
 DEEPL_API_KEY=your_deepl_api_key
 ```
 
-Don't have a DEEPL API key yet? Go to [DEEPL](https://www.deepl.com/en/products/api) to create a free account !
+Don't have a DEEPL API key yet? Go to [DEEPL](https://www.deepl.com/en/products/api) to create a free account!
 
-*NB: with DEEPL's free offer, you have access to an API credit of 500,000 words per month.*
+*Note: With DEEPL's free offer, you have access to an API credit of 500,000 words per month.*
 
 ## Dependencies
 
