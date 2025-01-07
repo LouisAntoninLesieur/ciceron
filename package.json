@@ -25,10 +25,5 @@
     "figlet": "^1.8.0",
     "fs-extra": "^11.2.0",
     "inquirer": "^12.3.0"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/LouisAntoninLesieur/ciceron"
-  },
-  "homepage": "https://github.com/LouisAntoninLesieur/ciceron"
+  }
 }
