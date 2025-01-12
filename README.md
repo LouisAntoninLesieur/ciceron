@@ -2,7 +2,11 @@
 
 ![POWERED WITH ](https://i.imgur.com/WUDnQ3Q.png)
 
-<span style="color: #305c48">**Ciceron**</span> is an npm package that translates in files comments from auto-detected language to another language using the DEEPL© API.
+<span style="color: #305c48">**Ciceron**</span> is an npm package that translates file comments from an auto-detected language to another language using the DEEPL© API.
+
+## Prerequisite
+
+You need a DEEPL API key to use Ciceron. If you don't have one yet, go to [DEEPL](https://www.deepl.com/en/products/api) to create a free account !
 
 ## Installation
 
@@ -13,10 +17,10 @@ npm i -g ciceron
 ```
 
 <details>
-  <summary style="font-style: italic">Installing ciceron locally (not recommended)</summary>
+  <summary style="font-style: italic">Installing ciceron locally into your project (requires a script configuration into your package.json file)</summary>
 <br>
 
-  If you prefer to install <span style="color: #305c48">**ciceron**</span> locally, we recommend adding it to your project dev dependencies:
+  If you prefer to install <span style="color: #305c48">**ciceron**</span> locally, we recommend adding it to your project **dev dependencies**:
 
   ```bash
   npm i ciceron --save-dev
@@ -35,15 +39,16 @@ npm i -g ciceron
   ```bash
   npm run translate <file>
   ```
+
+  You will then be prompted to select the target language and choose whether to replace the original files or generate a new file.
+
 </details>
 
 ## Usage
 
 ### CLI Command
 
-To use the <span style="color: #305c48">**ciceron**</span> CLI command, run:
-
-#### If <span style="color: #305c48">**ciceron**</span> is installed globally:
+## If <span style="color: #305c48">**ciceron**</span> is installed globally, run:
 
 ```bash
 ciceron translate <file>
@@ -52,16 +57,35 @@ ciceron translate <file>
 ### Example
 
 ```bash
+# drag and drop the file
 ciceron translate ./src/example.js
+
+# or write the file name in plain text
+ciceron translate example.js
 ```
 
-#### If <span style="color: #305c48">**ciceron**</span> is not installed globally or locally:
+You will then be prompted to select the target language and choose whether to replace the original files or generate a new file.
+
+---
+
+
+## If <span style="color: #305c48">**ciceron**</span> is neither installed globally nor locally, you still can run:
 
 ```bash
 npx ciceron translate <file>
 ```
 
-You will be prompted to select the target language and choose whether to replace the original files or generate a new file.
+### Example
+
+```bash
+# drag and drop the file
+npx ciceron translate ./src/example.js
+
+# or write the file name in plain text
+npx ciceron translate example.js
+```
+
+You will then be prompted to select the target language and choose whether to replace the original files or generate a new file.
 
 ## Configuration
 
@@ -80,8 +104,6 @@ Set your DEEPL API key in the `.env` file **at the root of your project**:
 DEEPL_API_KEY=your_deepl_api_key
 ```
 
-Don't have a DEEPL API key yet? Go to [DEEPL](https://www.deepl.com/en/products/api) to create a free account!
-
 *Note: With DEEPL's free offer, you have access to an API credit of 500,000 words per month.*
 
 ## Dependencies
@@ -96,7 +118,7 @@ Don't have a DEEPL API key yet? Go to [DEEPL](https://www.deepl.com/en/products/
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License. See the `LICENSE` file for details.
 
 ## Author
 
