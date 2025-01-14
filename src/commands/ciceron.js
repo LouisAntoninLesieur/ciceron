@@ -9,6 +9,7 @@ export function ciceron() {
   program
     .command('translate <file>')
     .description('Translate comments in a file')
+    .alias('t')
     .action(async (file) => {
       const answers = await userPrompt(languages);
       await fileTranslator(file, answers);
