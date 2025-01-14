@@ -1,16 +1,38 @@
 # Ciceron
 
-![POWERED WITH ](https://i.imgur.com/WUDnQ3Q.png)
+<img src="https://i.imgur.com/WUDnQ3Q.png" alt="POWERED WITH " width="400"/>
 
-<span style="color: #305c48">**Ciceron**</span> is an npm package that translates file comments from an auto-detected language to another language using the DEEPL© API.
+*<span style="color: #305c48">**ciceron**</span> is an npm package that translates file comments from an auto-detected language to another language using the DEEPL© API.*
+
+## Table of Contents
+
+- 🌟 [Features](#features)
+- 📌 [Prerequisite](#prerequisite)
+- 📦 [Installation](#installation)
+- 📖 [Usage](#usage)
+  - 🖥️ [CLI Command](#cli-command)
+    - 💾 [Using in global context](#if-ciceron-is-installed-globally-run)
+    - 🌐 [Using npx](#if-ciceron-is-neither-installed-globally-nor-locally-you-still-can-run)
+- ⚙️ [Configuration](#configuration)
+- 🈯 [Supported Languages](#supported-languages)
+- 🧩 [Dependencies](#dependencies)
+- 📄 [License](#license)
+- ✍🏻 [Author](#author)
+
+## Features
+
+- Translate file comments from an auto-detected language to another language.
+- Replace the original files or generate new files.
+- Supports multiple languages.
+- Easy to install. Easy to configure. Easy to use.
 
 ## Prerequisite
 
-You need a DEEPL API key to use Ciceron. If you don't have one yet, go to [DEEPL](https://www.deepl.com/en/products/api) to create a free account !
+You need a DEEPL API key to use <span style="color: #305c48">**ciceron**</span>. If you don't have one yet, go to [DEEPL](https://www.deepl.com/en/products/api) to create a free account *(up to 500.000 words / months with the free plan )* !
 
 ## Installation
 
-We recommend installing <span style="color: #305c48">**ciceron**</span> globally:
+We recommend installing <span style="color: #305c48">**ciceron**</span> **globally**:
 
 ```bash
 npm i -g ciceron
@@ -105,6 +127,22 @@ DEEPL_API_KEY=your_deepl_api_key
 ```
 
 *Note: With DEEPL's free offer, you have access to an API credit of 500,000 words per month.*
+
+## Supported Languages
+
+<span style="color: #305c48">**ciceron**</span> supports the following languages:
+  - English 🇬🇧
+  - French 🇫🇷
+  - German 🇩🇪
+  - Italian 🇮🇹
+  - Spanish 🇪🇸
+  - Dutch 🇳🇱
+  - Portuguese 🇵🇹
+  - Japanese 🇯🇵
+  - Korean 🇰🇷
+  - Chinese (simplified) 🇨🇳
+  - Ukrainian 🇺🇦
+  - Russian 🇷🇺
 
 ## Dependencies
 

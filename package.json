@@ -1,6 +1,6 @@
 {
   "name": "ciceron",
-  "version": "1.0.5",
+  "version": "1.1.0",
   "description": "An npm package to translate in-files comments from auto-detected language to another one using DEEPL© API.",
   "keywords": [
     "translation",
