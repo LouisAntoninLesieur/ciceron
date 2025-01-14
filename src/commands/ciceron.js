@@ -14,5 +14,16 @@ export function ciceron() {
       await fileTranslator(file, answers);
     });
 
+  program
+    .command('languages')
+    .alias('l')
+    .description('List available languages')
+    .action(() => {
+      console.log('Available languages:');
+      languages.forEach((language) => {
+        console.log(`- ${language.name}`);
+      });
+    });
+
   program.parse(process.argv);
 };
