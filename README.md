@@ -1,6 +1,6 @@
 # Ciceron
 
-<img src="https://i.imgur.com/WUDnQ3Q.png" alt="POWERED WITH " width="400"/>
+<img src="https://i.imgur.com/WUDnQ3Q.png" alt="POWERED WITH " width="800"/>
 
 *<span style="color: #305c48">**ciceron**</span> is an npm package that translates file comments from an auto-detected language to another language using the DEEPL© API.*
 
@@ -19,18 +19,18 @@
 - 📄 [License](#license)
 - ✍🏻 [Author](#author)
 
-## Features
+## 🌟 Features
 
 - Translate file comments from an auto-detected language to another language.
 - Replace the original files or generate new files.
 - Supports multiple languages.
 - Easy to install. Easy to configure. Easy to use.
 
-## Prerequisite
+## 📌 Prerequisite
 
 You need a DEEPL API key to use <span style="color: #305c48">**ciceron**</span>. If you don't have one yet, go to [DEEPL](https://www.deepl.com/en/products/api) to create a free account *(up to 500.000 words / months with the free plan )* !
 
-## Installation
+## 📦 Installation
 
 We recommend installing <span style="color: #305c48">**ciceron**</span> **globally**:
 
@@ -66,11 +66,11 @@ npm i -g ciceron
 
 </details>
 
-## Usage
+## 📖 Usage
 
-### CLI Command
+### 🖥️ CLI Command
 
-## If <span style="color: #305c48">**ciceron**</span> is installed globally, run:
+#### 💾 If <span style="color: #305c48">**ciceron**</span> is installed globally, run:
 
 ```bash
 ciceron translate <file>
@@ -91,7 +91,7 @@ You will then be prompted to select the target language and choose whether to re
 ---
 
 
-## If <span style="color: #305c48">**ciceron**</span> is neither installed globally nor locally, you still can run:
+#### 🌐 If <span style="color: #305c48">**ciceron**</span> is neither installed globally nor locally, you still can run:
 
 ```bash
 npx ciceron translate <file>
@@ -109,7 +109,7 @@ npx ciceron translate example.js
 
 You will then be prompted to select the target language and choose whether to replace the original files or generate a new file.
 
-## Configuration
+## ⚙️ Configuration
 
 <span style="color: #305c48">**ciceron**</span> requires a short configuration.
 
@@ -128,7 +128,7 @@ DEEPL_API_KEY=your_deepl_api_key
 
 *Note: With DEEPL's free offer, you have access to an API credit of 500,000 words per month.*
 
-## Supported Languages
+## 🈯 Supported Languages
 
 <span style="color: #305c48">**ciceron**</span> supports the following languages:
   - English 🇬🇧
@@ -144,7 +144,7 @@ DEEPL_API_KEY=your_deepl_api_key
   - Ukrainian 🇺🇦
   - Russian 🇷🇺
 
-## Dependencies
+## 🧩 Dependencies
 
 - [chalk](https://www.npmjs.com/package/chalk)
 - [commander](https://www.npmjs.com/package/commander)
@@ -154,10 +154,10 @@ DEEPL_API_KEY=your_deepl_api_key
 - [fs-extra](https://www.npmjs.com/package/fs-extra)
 - [inquirer](https://www.npmjs.com/package/inquirer)
 
-## License
+## 📄 License
 
-This project is licensed under the MIT License. See the `LICENSE` file for details.
+This project is licensed under the MIT License. See the [LICENSE](https://github.com/LouisAntoninLesieur/ciceron/blob/main/LICENSE) file for details.
 
-## Author
+## ✍🏻 Author
 
 Louis-Antonin Lesieur
